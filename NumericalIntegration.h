@@ -37,7 +37,7 @@ namespace Eigen
 
 #include <iomanip>
 #include <Eigen/Eigenvalues>
-#include <unsupported/Eigen/MPRealSupport>
+// CREATES DEPENDENCY ON GPL. NOT NEEEDED FOR FIXED POINT CALCS #include <unsupported/Eigen/MPRealSupport>
 
 #include "ComputeGaussKronrodNodesWeights.h"
 #include "GaussKronrodNodesWeights.h"
